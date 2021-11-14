@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
+body
+{
+    margin:0;
+    padding: 0;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+   
+}
+.main_container
+{
+    width: 100%;
+    height: 70vh;
+    background-color:  hsl(235, 16%, 14%);
+    background-image: url('../images/bg-stars.svg');
+}
+.container
+{
+    width:50rem;
+    height:30rem;
+   
+    position:absolute;
+    top:30%;
+    left: 50%;
+    transform: translate(-50%,-30%);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+   
+    align-items: center;
+}
+
+.heading_main{
+    font-family: 'Red Hat Text', sans-serif;
+    text-transform: uppercase;
+    color:white;
+    font-size: 20px;
+    letter-spacing: 8px;
+}
+
+.timer_box
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 5rem;
+
+}
+
+.box
+{
+    padding: .5rem;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.innerbox
+{
+    flex:1;
+    width: 100%;
+    background-color: hsl(234, 17%, 12%);
+    border-radius: 10px;
+    position: relative;
+}
+.upper_box
+{
+    width: 100%;
+    height: 50%;
+    background-color: hsl(236, 21%, 26%);
+    border-radius: 10px;
+    border-bottom: 1px solid;
+    
+    
+}
+.lower_box
+{
+    width: 100%;
+    height: 50%;
+    background-color: hsl(236, 21%, 26%);
+    border-radius: 10px;
+    box-shadow: -1px 8px 5px -1px  hsl(234, 17%, 12%);
+}
+
+p{
+    text-transform: uppercase;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 12px;
+    color: hsl(237, 18%, 59%);
+    text-align: center;
+}
+.days_number_1
+{
+    font-size: 5rem;
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 700;
+    color: hsl(345, 95%, 68%);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.hours_number_1
+{
+    
+    font-size: 5rem;
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 700;
+    color: hsl(345, 95%, 68%);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.minutes_number_1
+{
+      
+    font-size: 5rem;
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 700;
+    color: hsl(345, 95%, 68%);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.seconds_number_1
+{
+     
+    font-size: 5rem;
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 700;
+    color: hsl(345, 95%, 68%);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+footer
+{
+    background-image: url('../images/pattern-hills.svg');
+    background-repeat: no-repeat;
+    background-color: hsl(235, 16%, 14%);
+    background-size: cover;
+    height: 30vh;
+}
