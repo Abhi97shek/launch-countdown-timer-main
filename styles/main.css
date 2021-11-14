@@ -147,5 +147,29 @@ footer
     background-repeat: no-repeat;
     background-color: hsl(235, 16%, 14%);
     background-size: cover;
+    background-position: center;
     height: 30vh;
+}
+
+.socials
+{
+    width: 100%;
+    /* position: absolute; */
+    /* top: 50%; */
+    /* transform: translate(-50%, -50%); */
+    /* left: 50%; */
+    text-align: center;
+    padding-top: 10rem;
+}
+.icon
+{
+    font-size: 2rem;
+    color: hsl(237, 18%, 59%);
+    cursor: pointer;
+    margin-right: 2rem;
+}
+
+.icon:hover
+{
+    color:hsl(345, 95%, 68%);
 }
